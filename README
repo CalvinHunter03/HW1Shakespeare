@@ -1,0 +1,24 @@
+README for HW1:SHakespeare, CSE101
+
+Calvin Hunter, April 2024
+
+----------
+
+Code files: Makefile, main.c, LinkedList.c, LinkedList.h
+Test files: shakespeare-cleaned5.txt
+Extra file: README
+
+----------
+
+LinkedList.h and LinkedList.c act as a linked list to store a word and frequency of that word.
+
+main.c uses LinkedList.c to add words to a linked list while
+taking in input from the command lines and will output the words with the 
+different lengths and frequencies given from in the input file. 
+
+----------
+
+USAGES:
+1) Run "make", to get exectuable "bard".
+2) Run "./bard <INPUT FILE> <OUTPUT FILE>"
+
